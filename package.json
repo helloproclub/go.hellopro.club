@@ -1,0 +1,16 @@
+{
+  "name": "go.hellopro.club",
+  "version": "1.0.0",
+  "description": "URL Shortener for Proclub Events",
+  "main": "src/Main.js",
+  "repository": "https://github.com/helloproclub/go.hellopro.club",
+  "author": "Proclub Collaborator",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node src/Main.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
