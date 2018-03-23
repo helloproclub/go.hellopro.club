@@ -14,7 +14,10 @@ app.get('/ocp1', (req, res) =>
   res.redirect('https://www.hackerrank.com/proclub-open-cp-i')
 );
 
+app.get('/lineocp', (req, res) =>
+  res.redirect('http://line.me/R/ti/g/P6DOqQrunS')
+);
+
 app.listen(envs.port, () =>
   console.log('Application listening on port ' + envs.port + '!')
 );
-
