@@ -17,7 +17,7 @@ app.get('/ocp1', (req, res) =>
 app.get('/lineocp', (req, res) =>
   res.redirect('http://line.me/R/ti/g/P6DOqQrunS')
 );
-``
+
 app.get('/protalk1', (req, res) =>
   res.redirect('https://www.eventbrite.com/e/protalk-visual-branding-for-startup-tickets-45057584448')
 );
