@@ -22,6 +22,10 @@ app.get('/protalk1', (req, res) =>
   res.redirect('https://www.eventbrite.com/e/protalk-visual-branding-for-startup-tickets-45057584448')
 );
 
+app.get('/protalk2', (req, res) =>
+  res.redirect('https://www.eventbrite.com/e/protalk-skill-development-tickets-45432032432')
+);
+
 app.listen(envs.port, () =>
   console.log('Application listening on port ' + envs.port + '!')
 );
