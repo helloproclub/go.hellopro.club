@@ -26,6 +26,14 @@ app.get('/protalk2', (req, res) =>
   res.redirect('https://www.eventbrite.com/e/protalk-skill-development-tickets-45432032432')
 );
 
+app.get('/hustlertalk', (req, res) =>
+  res.redirect('https://www.eventbrite.com/e/protalk-being-a-business-analyst-at-proclub-tickets-49817742208')
+);
+
+app.get('/hackertalk', (req, res) =>
+  res.redirect('https://www.eventbrite.com/e/protalk-being-a-programmer-at-proclub-tickets-50117251047')
+);
+
 app.listen(envs.port, () =>
   console.log('Application listening on port ' + envs.port + '!')
 );
