@@ -34,6 +34,10 @@ app.get('/hackertalk', (req, res) =>
   res.redirect('https://www.eventbrite.com/e/protalk-being-a-programmer-at-proclub-tickets-50117251047')
 );
 
+app.get('/hipstertalk', (req, res) =>
+  res.redirect('https://www.eventbrite.com/e/protalk-being-a-uiux-designer-at-proclub-tickets-50312413784')
+);
+
 app.listen(envs.port, () =>
   console.log('Application listening on port ' + envs.port + '!')
 );
