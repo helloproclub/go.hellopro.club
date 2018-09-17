@@ -38,6 +38,10 @@ app.get('/hipstertalk', (req, res) =>
   res.redirect('https://www.eventbrite.com/e/protalk-being-a-uiux-designer-at-proclub-tickets-50312413784')
 );
 
+app.get('/telegram', (req, res) =>
+  res.redirect('https://t.me/joinchat/COSDekmT2S1N54rCte92QA')
+);
+
 app.listen(envs.port, () =>
   console.log('Application listening on port ' + envs.port + '!')
 );
